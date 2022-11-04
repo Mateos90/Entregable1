@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>    
+   <head>
+     <meta charset="utf-8"> 
+      <link rel="stylesheet" href="../CSS/stylecss.css">
+   </head>
+<body> 
+<header>
+<h1>Encabezado Nivel 1</h1>
+</header>
+
+<nav>
+
+</nav>
+
+<main>
+   
+   <aside>
+      <article>
+         <h2> Encabezado Nivel 2</h2>
+         <br>
+         <p> Aqui va el texto del primer parrafo</p>
+         <br><br>
+         <p>Aqui va el texto del segundo parrafo</p>
+      </article>
+   <aside id="lado_derecho">
+      <h3> Apartado </h3>
+
+<label for="Opcion">Elije una opción:</label></br>
+<input type="radio" name="opcion" id="opcion1"> Opcion 1 <br>
+<input type="radio" name="opcion" id="opcion1"> Opcion 2 <br>
+<input type="radio" name="opcion" id="opcion1"> Opcion 3 <br>
+
+   </aside>
+
+</main>
+
+<footer>
+
+
+</footer>
+
+**********CSS********
+
+html{
+    background-color:darkcyan;
+}
+
+header{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    float:left;
+    color:cadetblue;
+    text-align:center;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+nav{
+    height: 450px;
+    background:blue;
+}
+
+main{
+    height: 300px;
+    background: red;
+    padding-bottom: 5%  ;
+}
+
+#lado_derecho{
+    height: 25px;
+    width: 25%;
+    background: pink;
+    float: right;
+    padding-bottom: 20%;
+    padding-top: 5%;
+}
+
+footer{
+    height: 200px;
+    background: yellow;
+    padding-top: 5%;
+}
+
+aside{
+    text-align: center;
+}
+
+
+
+
+
+
+
